@@ -7,4 +7,4 @@ services:
     startCommand: node bot.js
     envVars:
       - key: TELEGRAM_BOT_TOKEN
-        value: YOUR_TELEGRAM_BOT_TOKEN  # Replace with your bot token
+        value: 7627278052:AAFD1kRGImFruj2zwLrRYhGJTBlXvZFaEFk  # Replace with your bot token
