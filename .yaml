@@ -1,0 +1,10 @@
+version: 1
+services:
+  - type: web
+    name: telegram-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node bot.js
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: YOUR_TELEGRAM_BOT_TOKEN  # Replace with your bot token
